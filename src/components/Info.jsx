@@ -1,10 +1,10 @@
 import React from 'react'
-// import profile from '../images/mya.jpg';
+import profilePicture from '../images/profile.png';
 
 export default function Info() {
     return (
         <div className="info">
-            <img className="image" src={"./images/profile.png"} />
+            <img className="image" src={profilePicture} alt='Profile picture'/>
             <div className="info-text">
                 <h2 className='name'>Laura Smith</h2>
                 <p className='job'>Frontend Developer</p>
